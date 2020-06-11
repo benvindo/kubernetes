@@ -1,0 +1,23 @@
+Para iniciar o Minikube:
+>minikube start
+
+Para iniciar o Minikube com uma versão especifica do Kubernetes:
+>minikube start --kubernetes-version="v1.16"
+
+Para acessar o dashboard do Kubernetes em execução:
+>minikube dashboard
+
+Para ver o status do Minikube:
+>minikube status
+
+Para parar o cluster:
+>minikube stop
+
+Para se conectar pelo SSH com o nó master do cluster:
+>minikube ssh
+
+E para remover o cluster:
+>minikube delete
+
+E para remover todos os clusters e perfis:
+>minikube delete --all
